@@ -1,0 +1,73 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #f673739c;
+}
+
+header
+{
+    background-color: #ea4545;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    padding: 10px 0px;
+    position: relative;
+}
+
+.contenedor
+{
+    position: relative;
+    width: 500px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 4px #000000;
+    margin: 50px auto;
+    background-color: rgba(127, 255, 255, 0.767);
+}
+
+#form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    margin: 50px auto;
+}
+
+.formulario
+{
+    margin: 10px 0;
+}
+
+.resultados
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.cajas
+{
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signoimg
+{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Signos</title>
+</head>
+<body>
+    <header>
+		<h1>SIGNOS</h1>
+	</header>
+<div class="contenedor" id="form">
+    <form class="formulario">
+        <label>Año</label>
+        <input type="number" id="anio">
+    </form>
+    <button onclick="calcularSigno()">MOSTRAR</button>
+</div>
+<div class="resultados">
+    <article class="cajas">
+        <p id="resto"></p>
+    </article>
+    <article class="cajas">
+        <p id="signo"></p>
+    </article>
+    <article class="cajas">
+        <p id="imagen" class="signoimg"></p>
+    </article>
+</div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
